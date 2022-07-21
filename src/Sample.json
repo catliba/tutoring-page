@@ -49,5 +49,16 @@
         "Email": "alice@ucsd.edu",
         "Bio": "Hello, feel free to ask for help!"
     }
-    ]
+    ],
+    "professorReviews": [{
+        "Name": "Miles Jones",
+        "Quarter": "Fall 2022",
+        "Rating": "3",
+        "Description": "df sadf sadf dsf sadf sdf sad fsad fsd fasd fsd fsadf sadf ds fs df sdfsfdasdf dsfsa fsdafa sdaf sdafsdfsaf sdfsafsadf sdasdfsaf sadfsdfsadf ddeoeoe 3151435 wdgwerg 4315 gfdgs"
+    },
+    {
+        "Name": "Keith Muller",
+        "Quarter": "Fall 2021",
+        "Rating": "5"
+    }]
 }
