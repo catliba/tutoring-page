@@ -1,0 +1,53 @@
+{
+    "tutor": [{
+        "ID": "1",
+        "Name": "Andrew",
+        "Course": "CSE100",
+        "Phone_Number": "928-234-1234",
+        "Discord": "Someone#5432",
+        "Pfp": "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-portrait-176256935.jpg",
+        "Email": "andrew@ucsd.edu",
+        "Bio": "Hello, feel free to ask for help!"
+    },
+    {
+        "ID": "2",
+        "Name": "Andy",
+        "Course": "CSE101",
+        "Phone_Number": "342-654-3245",
+        "Discord": "Pog#5432",
+        "Pfp": "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-portrait-176256935.jpg",
+        "Email": "andy@ucsd.edu",
+        "Bio": "Hello, feel free to ask for help!"
+    },
+    {
+        "ID": "3",
+        "Name": "Aaron",
+        "Course": "CSE110",
+        "Phone_Number": "234-988-0984",
+        "Discord": "Hi#5432",
+        "Pfp": "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-portrait-176256935.jpg",
+        "Email": "aaron@ucsd.edu",
+        "Bio": "Hello, feel free to ask for help!"
+    },
+    {
+        "ID": "4",
+        "Name": "Alex",
+        "Course": "CSE100",
+        "Phone_Number": "911-234-6923",
+        "Discord": "No#5432",
+        "Pfp": "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-portrait-176256935.jpg",
+        "Email": "alex@ucsd.edu",
+        "Bio": "Hello, feel free to ask for help!"
+    },
+    {
+        "ID": "5",
+        "Name": "Alice",
+        "Course": "CSE167",
+        "Phone_Number": "420-643-0762",
+        "Discord": "Yes#5432",
+        "Pfp": "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-portrait-176256935.jpg",
+        "Email": "alice@ucsd.edu",
+        "Bio": "Hello, feel free to ask for help!"
+    }
+    ]
+}
