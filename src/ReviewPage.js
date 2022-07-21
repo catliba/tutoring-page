@@ -4,6 +4,7 @@ import './App.css';
 import ProfBox from "./ProfBox";
 import myjson from "./Sample.json";
 import Popup from 'reactjs-popup';
+import Navbar from "./Navbar";
 
 
 const ReviewPage = () => {
@@ -13,13 +14,14 @@ const ReviewPage = () => {
     };*/
     return (
         //<button onClick={navtoapp}>sdfs</button>
+        <div> <Navbar />
         <div className="title">
-          <h1>Course Reviews</h1>
+          <h1 className="coursereview">Course Reviews</h1>
           <div className="addrevbutt">
 
           <Popup trigger={<button> Add Review</button>} modal nested>
           {close => (
-      <div className="modal">
+        <div className="modal">
         <button className="close" onClick={close}>
           &times;
         </button>
@@ -47,6 +49,7 @@ const ReviewPage = () => {
           </button>
         </div>
       </div>
+      
     )}
 
           </Popup>
@@ -56,6 +59,7 @@ const ReviewPage = () => {
                         <ProfBox prof={prof} />
                 ))}
             </div>
+        </div>
         </div>
     );
 }

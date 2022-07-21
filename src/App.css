@@ -115,6 +115,9 @@ img {
 }
 
 /* Review Page */
+.coursereview {
+    margin-top: 150px;
+}
 .addrevbutt {
     margin-left: auto;
     margin-right: 5%;
