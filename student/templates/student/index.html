@@ -1,0 +1,30 @@
+{% csrf_token %}
+
+<a href="{% url 'add_course' %}">Add Course</a>
+<hr>
+
+<h3>Current Courses</h1>
+{% for i in curr %}
+<p>{{i}}</p>
+<a href="">Find Tutors</a>
+<a href="{% url 'remove_course' i.id %}">Remove Course</a>
+<a href="">Mark as Complete</a>
+{% endfor %}
+
+<hr>
+<h3>Completed Courses</h1>
+
+{% for i in past %}
+<p>{{i}}</p>
+<a href="">Become a Tutor</a>
+<a href="">Remove Course</a>
+<a href="">Mark as Current</a>
+{% endfor %}
+
+<hr>
+<h3>Tutoring Courses</h1>
+
+{% for i in tut %}
+<p>{{i}}</p>
+<a href="">Remove Course</a>
+{% endfor %}
